@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+body{
+    background: hsl(217, 28%, 15%);
+}
+
+/* ====================== NAVBAR STYLING ====================== */
+nav {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 5rem;
+    font-weight: bold;
+}
+nav .logo-img {
+    width: 10rem;
+    height: 3rem;
+}
+
+/* LINKS */
+.nav-links ul li{
+    display: inline;
+    color: white;
+    padding-left: 3rem;
+    cursor: pointer;
+}
+
+/* ====================== HEADER STYLING ====================== */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/bg-curvy-desktop.svg) no-repeat;
+    background-position: bottom right;
+    background-size: 100% 23em;
+    padding-bottom: 5rem;
+}
+header h1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 45rem;
+    background: none;
+    margin: 3rem 0 2rem;
+    font-size: 2.5rem;
+}
+header p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 45rem;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    width: 35rem;
+    font-size: 1.2rem;
+}
+button{
+    width: 18rem;
+    height: 3.5rem;
+    margin: 2rem auto;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    cursor: pointer;
+}
+
+/* ====================== FEATURES SECTION ====================== */
+.feature-section{
+    background: hsl(218, 28%, 13%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 7rem;
+    color: white;
+}
+.testimonials{
+    background: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+    flex: 0 50%;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+}
+.testimonials h2{
+    background: none;
+    text-align: center;
+    color: white;
+}
+.testimonials p{
+    width: 25rem;
+}
+.testimonials img{
+    background: none;
+    padding: 2rem;
+}
+.bottom{
+    margin: 4rem 0 6rem;
+}
+
+/* ====================== STAY PRODUCTIVE STYLING ====================== */
+#stay-productive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(218, 28%, 13%);
+    color: white;
+}
+.heading-text{
+    background: none;
+    padding-left: 3rem;
+}
+#stay-productive h1{
+    background: none;
+    color: white;
+    width: 30rem;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.simple-text{
+    text-align: left;
+    width: 30rem;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    padding: 4px;
+    border-bottom: 1.7px solid hsl(176, 68%, 64%);
+}
+a img{
+    width: 1.2em;
+    margin-bottom: -3px;
+}
+
+/* ====================== COMMENTS SECTION STYLING ====================== */
+.outer-div{
+    background: hsl(218, 28%, 13%);
+}
+#comments{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20rem;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+    background: hsl(218, 28%, 13%);
+    color: white;
+}
+.comment-container{
+    width: 25rem;
+    padding: 2rem 2rem 1.5rem;
+    margin: 1.5rem 0;
+    background: hsl(219, 30%, 18%);
+    border-radius: 10px;
+    box-shadow: 6px 6px 3px 0px hsl(217, 28%, 15%);
+}
+.comment-container h5{
+    padding-bottom: 1.5rem;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+/* USER SECTION */
+.user{
+    display: flex;
+    align-items: center;
+}
+.user img{
+    width: 2rem;
+    border-radius: 50%;
+}
+.user div{
+    margin-left: 0.8rem;
+}
+.user h6{
+    font-size: 0.7rem;
+}
+.user p{
+    font-size: 0.6rem;
+}
+
+/* ====================== REGISTRATION SECTION ====================== */
+.email-container{
+    display: flex;
+    justify-content: center;
+}
+.email-section{
+    background: hsl(217, 28%, 15%);
+    width: 60rem;
+    padding: 2rem 3rem;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 27rem;
+    box-shadow: 4px 4px 7px 0px hsl(218, 27%, 8%);
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: -20px;
+    width: 871px;
+    height: 75px;
+}
+.email-section input{
+    width: 60%;
+    height: 3rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+}
+.email-section button{
+    height: 3rem;
+}
+.email-section h1{
+    margin-bottom: 1rem;
+}
+.email-section p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.3rem;
+}
+
+/* ====================== FOOTER SECTION ====================== */
+.footer-section{
+    position: relative;
+    background: hsl(216, 53%, 9%);
+    padding: 14rem 6rem 3rem;
+    color: white;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+i{
+    font-size: 1.5rem;
+}
+
+/* LOCATION CONTAINER */
+.info-container .location{
+    display: flex;
+}
+.info-container .location i{
+    padding-right: 1rem;
+}
+.info-container .location p{
+    width: 20rem;   
+}
+
+/* CONTACT CONTAINER */
+.info-container .contact i{
+    padding-right: 1rem;
+}
+.info-container p{
+    padding-bottom: 1.3rem;
+}
+
+/* LINKS CONTAINER */
+.info-container .links li{
+    list-style: none;
+    padding-bottom: 1.5rem;
+}
+
+/* TERMS CONTAINER */
+.info-container .terms li{
+    list-style: none;
+    padding-bottom: 1.5rem;
+}
+
+/* SOCIAL CONTAINER */
+.info-container .social i{
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border: 1.5px solid white;
+    border-radius: 50%;
+}
+
+.fa-facebook-f{
+    width: 3.5rem;
+    text-align: center;
+}

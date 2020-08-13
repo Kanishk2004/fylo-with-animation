@@ -1,0 +1,188 @@
+/* ====================== NAVBAR STYLING ====================== */
+nav {
+    padding: 0 0.5rem;
+    height: 80px;
+    font-weight: normal;
+}
+nav .logo-img{
+    width: 5rem;
+    height: 1.5rem;
+}
+.nav-links ul li{
+    padding-left: 0.7rem;
+    font-size: 0.7rem;
+}
+
+/* ====================== HEADER STYLING ====================== */
+header{
+    background: url(../images/bg-curvy-mobile.svg) no-repeat;
+    background-position: bottom;
+    background-size: 100% 6em;
+    padding-bottom: 5rem;
+}
+header img{
+    padding-top: 2rem;
+    width: 15rem;
+}
+header h1{
+    width: 17rem;
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem;
+}
+header p{
+    width: 15rem;
+    font-size: 0.76rem;
+}
+header button{
+    width: 12rem;
+    height: 2.3rem;
+    font-size: 1rem;
+    margin: 1.5rem auto;
+}
+
+/* ====================== FEATURES SECTION ====================== */
+.testimonials {
+    /* width: 23rem; */
+    padding-bottom: 2rem;
+}
+.testimonials img{
+    padding: 1rem;
+    margin: 1rem;
+    flex: 0 50%;
+}
+.testimonials h2{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 0.2rem 0 0.5rem;
+}
+.testimonials p{
+    width: 17rem;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.bottom{
+    margin: 0;
+}
+
+/* ====================== STAY PRODUCTIVE STYLING ====================== */
+#stay-productive{
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.stay-productive-illustration{
+    width: 18rem;
+}
+.heading-text{
+    margin-top: 2rem;
+    padding: 0rem;
+}
+#stay-productive h1{
+    width: 18rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.simple-text{
+    width: 18rem;
+    font-size: 0.8rem;
+}
+a{
+    padding: 2px;
+}
+
+/* ====================== COMMENTS SECTION STYLING ====================== */
+#comments{
+    width: 85vw;
+    padding-top: 5rem;
+    padding-bottom: 15rem;
+}
+.comment-container{
+    padding: 2rem 1rem 1rem;
+    margin-bottom: 1.5rem;
+}
+.comment-container h5{
+    padding-bottom: 1rem;
+    font-size: 0.67rem;
+    line-height: 2;
+}
+/* USER SECTION */
+.user img{
+    width: 1.7rem;
+}
+.user div{
+    margin-left: 0.7rem;
+}
+
+/* ====================== REGISTRATION SECTION ====================== */
+.email-section{
+    width: 18rem;
+    padding: 1.5rem 1.1rem;
+    bottom: 64rem;
+}
+.email-section h1{
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+.email-section p{
+    width: 100%;
+    font-size: 0.8rem;
+}
+.submit{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.email-section input{
+    width: 100%;
+}
+.email-section button{
+    width: 100%;
+    margin: 20px 0 0px;
+    font-size: 1rem;
+}
+.email-section p{
+    padding-bottom: 2rem;
+}
+
+
+/* ====================== FOOTER SECTION ====================== */
+.footer-section{
+    padding: 15rem 1.5rem 1.5rem;
+}
+.info-container{
+    display: block;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+/* LOCATION CONTAINER */
+.info-container .location p{
+    width: 25rem;
+    font-size: 1rem;
+}
+
+/* CONTACT CONTAINER */
+.info-container .contact{
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+/* TERMS CONTAINER */
+.info-container .terms{
+    padding: 3rem 0 2rem;
+}
+
+/* SOCIAL CONTAINER */
+.info-container .social{
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem 2rem;
+}
+.info-container .social i{
+    padding: 0.5rem;
+    border:  1px solid white;
+    font-size: 1rem;
+}
+.fa-facebook-f{
+    width: 2.4rem;
+    text-align: center;
+}

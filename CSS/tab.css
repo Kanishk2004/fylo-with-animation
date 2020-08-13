@@ -1,0 +1,140 @@
+/* ====================== NAVBAR STYLING ====================== */
+nav{
+    padding: 0 3rem;
+    height: 120px;
+    font-weight: normal;
+}
+nav .logo-img{
+    width: 7rem;
+    height: 2.5rem;
+}
+.nav-links ul li{
+    padding-left: 1.5rem;
+}
+
+/* ====================== HEADER STYLING ====================== */
+header img{
+    width: 30rem;
+}
+header h1{
+    width: 30rem;
+    font-size: 2rem;
+}
+header p{
+    width: 25rem;
+}
+header button{
+    width: 16rem;
+    height: 2.7rem;
+    font-size: 1rem;
+    margin: 1.5rem auto;
+}
+
+/* ====================== FEATURES SECTION ====================== */
+.feature-section{
+    padding: 0 3rem;
+}
+.testimonials{
+    width: 20rem;
+    flex: 0 50%;
+    padding-bottom: 2rem;
+}
+.testimonials img{
+    padding: 1rem;
+    margin: 1rem;
+    flex: 0 50%;
+}
+.testimonials h2{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+.testimonials p{
+    width: 20rem;
+    font-size: 0.9rem;
+}
+.bottom{
+    margin: 0;
+}
+
+/* ====================== STAY PRODUCTIVE STYLING ====================== */
+#stay-productive{
+    padding: 2rem 2rem 0;
+}
+.stay-productive-illustration{
+    width: 50%;
+}
+.heading-text{
+    margin-top: 2rem;
+    padding: 0rem;
+    width: 40%;
+}
+#stay-productive h1{
+    width: auto;
+    font-size: 1em;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.simple-text{
+    width: auto;
+    margin: 0 2rem;
+    font-size: 0.7em;
+    text-align: center;
+}
+a{
+    padding: 2px;
+    font-size: 0.6em;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+/* ====================== COMMENTS SECTION STYLING ====================== */
+.comment-container{
+    margin: 1.5rem 0;
+}
+
+/* ====================== FOOTER SECTION ====================== */
+.info-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    justify-content: center;
+    font-weight: normal;
+}
+i{
+    font-size: 1rem;
+}
+
+/* LOCATION CONTAINER */
+.info-container .location i{
+    padding-right: 0.5rem;
+}
+.info-container .location p{
+    width: 15rem;   
+}
+
+/* CONTACT CONTAINER */
+.info-container .contact i{
+    padding-right: 0.5rem;
+}
+
+/* ====================== REGISTRATION SECTION ====================== */
+.email-section{
+    width: 90%;
+    bottom: 46rem;
+}
+.submit{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.email-section input{
+    width: 100%;
+}
+.email-section button{
+    width: 60%;
+    margin: 20px 0 0px;
+    font-size: 1rem;
+}
+.email-section p{
+    padding-bottom: 2rem;
+}
